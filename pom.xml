@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>check_scenario</name>
 	<description>Check a scenario via batch</description>
+	
 	<dependencies>
 		<dependency>
 			<groupId>info.kapable</groupId>
@@ -33,10 +34,11 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.1</version>
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>application.Application</mainClass>
+							<mainClass>info.kapable.application.Application</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

@@ -1,4 +1,6 @@
-package application;
+package info.kapable.application;
+
+import info.kapable.sondes.scenarios.ScenarioCaller;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -10,8 +12,6 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import sondes.scenarios.ScenarioCaller;
 
 public final class Application {
 	
